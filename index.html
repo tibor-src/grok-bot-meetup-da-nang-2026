@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grok Bot as a staff</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #111; color: #f4f1ea; font-family: "Iowan Old Style", Palatino, Georgia, serif; }
+  .deck { height: 100%; }
+  section { display: none; height: 100%; padding: 8vh 10vw; }
+  section.active { display: flex; flex-direction: column; justify-content: center; }
+  h1 { font-size: 4.2rem; line-height: 1.05; font-weight: 500; margin: 0 0 0.4em; }
+  h2 { font-size: 2.6rem; font-weight: 500; margin: 0 0 0.6em; }
+  p, li { font-size: 1.7rem; line-height: 1.35; }
+  ul { margin: 0; padding-left: 1.2em; }
+  li { margin: 0.35em 0; }
+  .kicker { letter-spacing: 0.08em; text-transform: uppercase; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.95rem; color: #c8b48a; margin-bottom: 1.2rem; }
+  a { color: #f4f1ea; }
+  .progress { position: fixed; left: 0; bottom: 0; height: 4px; background: #c8b48a; }
+  .hint { position: fixed; right: 1.2rem; bottom: 0.8rem; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.8rem; color: #888; }
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+<section>
+  <div class="kicker">Grok Bot meetup · Da Nang · 3 Oct 2026</div>
+  <h1>One bot, one job.</h1>
+  <p>Tibor Sekelj</p>
+</section>
+<section>
+  <h2>Until recently, Cursor.</h2>
+  <p>Community developer, and before that technical support. I still work on human-agent collaboration. I run Grok Bot as a staff, not as one long chat.</p>
+</section>
+<section>
+  <h2>The failure mode</h2>
+  <p>One bot that does travel, mail, hardware, the books, and the reminders. It forgets which hat it is wearing. You spend the day correcting it.</p>
+</section>
+<section>
+  <h2>Four parts</h2>
+  <ul>
+    <li>Name the job</li>
+    <li>Give each bot one job, including who may send</li>
+    <li>Put the check on a routine</li>
+    <li>Share a working bot as a template</li>
+  </ul>
+</section>
+<section>
+  <h2>The name is the job</h2>
+  <p>First two letters of the purpose, turned into a person. If they do not make a clean name, do not force one.</p>
+</section>
+<section>
+  <h2>A sidebar you can read</h2>
+  <ul>
+    <li>Travel, Troy. Hardware, Hal. Accountant, Ace.</li>
+    <li>Mail, Max. Signal, Sia. Ambassadors, Amber.</li>
+    <li>Time sheets, Tim. House, Holly. Bot design, Bodhi. BitUnlimited, Bix.</li>
+  </ul>
+</section>
+<section>
+  <h2>A second job is a second bot</h2>
+  <p>Troy does not pick up hardware because he was helpful on Tuesday. Helpful is how a specialist becomes a generalist.</p>
+</section>
+<section>
+  <h2>Coordinator, then specialists</h2>
+  <p>I used to keep a chief of staff, Costa, separate from the people who do the work. She coordinated. She did not book the trip, configure the hardware, or do the books.</p>
+</section>
+<section>
+  <h2>Who owns the work</h2>
+  <ul>
+    <li>Troy owns travel</li>
+    <li>Hal owns hardware</li>
+    <li>Ace owns CodeMango and Xolo accounting</li>
+  </ul>
+  <p>She did not redo their work, and she did not ping me if one of them had already told me.</p>
+</section>
+<section>
+  <h2>One coordinator</h2>
+  <p>Two people doing the same job is worse than one generalist. I am folding coordination into the primary bot and removing Costa. The specialists stay.</p>
+</section>
+<section>
+  <h2>Only one bot sends mail</h2>
+  <p>Max sends email. Everyone else drafts. Max sends once, after I have said yes. No second ask. Sia owns Signal. One inbox, one owner.</p>
+</section>
+<section>
+  <h2>Why that rule exists</h2>
+  <p>If every bot can send, you get three replies to the same person, in your name, and you cannot take them back.</p>
+</section>
+<section>
+  <h2>Routines</h2>
+  <p>A saved prompt on a clock or an event, owned by the bot whose job it is. I use a morning pass and a weekly pass. I am not reading you the prompts.</p>
+</section>
+<section>
+  <h2>Silence is the default</h2>
+  <p>If the check finds nothing, it stays quiet. A routine that messages you “nothing changed” every morning is how you learn to ignore the bot.</p>
+</section>
+<section>
+  <h2>A template you can add</h2>
+  <p>Space Opera RPG. A game master, made while building Prendaram. Adding it does not join my campaign and does not show my chats.</p>
+  <p><a href="https://x.ai/bot/van80CjdHFc1ZDseneBEJ">x.ai/bot/van80CjdHFc1ZDseneBEJ</a></p>
+</section>
+<section>
+  <h2>What you tell it</h2>
+  <ul>
+    <li>The scene, universe, or environment</li>
+    <li>Which characters get their own bots</li>
+    <li>Which side characters the narrator keeps</li>
+    <li>Then ask for a room: you and the narrator, or the cast</li>
+  </ul>
+</section>
+<section>
+  <h2>What is in the kit</h2>
+  <p>Skills: getting started, character script, tune the style, set up the cast. Routines: a weekly play tune-up and a cast health check. Both stay quiet unless something needs a fix.</p>
+  <p>Not affiliated with any book, film, or series. Recipe: github.com/tibor-src/space-opera-rpg</p>
+</section>
+<section>
+  <h2>Start with three</h2>
+  <ul>
+    <li>Name them from the job</li>
+    <li>One job each</li>
+    <li>Only one sends mail</li>
+    <li>One routine, silent when nothing changed</li>
+  </ul>
+</section>
+<section>
+  <h2>Same idea as Cursor</h2>
+  <p>One agent, one job, a name you can read in a list. Leaving didn’t change the setup. It moved it onto Grok Bot.</p>
+</section>
+<section>
+  <h2>Questions</h2>
+  <p>tibor.io/projects</p>
+</section>
+</div>
+<div class="progress" id="bar"></div>
+<div class="hint">arrows</div>
+<script>
+const slides = [...document.querySelectorAll('#deck section')];
+let i = 0;
+function show(n) {
+  i = Math.max(0, Math.min(slides.length - 1, n));
+  slides.forEach((s, k) => s.classList.toggle('active', k === i));
+  document.getElementById('bar').style.width = ((i + 1) / slides.length * 100) + '%';
+  history.replaceState(null, '', '#' + (i + 1));
+}
+addEventListener('keydown', (e) => {
+  if (['ArrowRight','PageDown',' '].includes(e.key)) { e.preventDefault(); show(i + 1); }
+  if (['ArrowLeft','PageUp','Backspace'].includes(e.key)) { e.preventDefault(); show(i - 1); }
+  if (e.key === 'Home') show(0);
+  if (e.key === 'End') show(slides.length - 1);
+});
+show((+location.hash.slice(1) || 1) - 1);
+</script>
+</body>
+</html>
